@@ -1,0 +1,8 @@
+[
+    {"idx": 1, "command": "ls","args": ["-alh"]},
+    {"idx": 2, "command": "echo","args": ["haha"]},
+    {"idx": 3, "command": "sleep","args": ["1"]},
+    {"idx": 4, "command": "rustup","args": ["show"]},
+    {"idx": 5, "command": "cargo","args": ["-V"]},
+    {"idx": 6, "command": "python","args": ["-V"]}
+]

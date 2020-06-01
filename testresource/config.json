@@ -1,0 +1,8 @@
+{
+    "config_dir": "./testresource",
+    "command_config_file": "multiplecommands.json",
+    "plan_files": ["testplan.json"],
+    "taskfiles": {
+        "Task1": "testtasks.json"
+    }
+}
