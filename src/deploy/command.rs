@@ -27,12 +27,12 @@ use super::{
     Ord,
     Command,
     File,
-    Read
+    Read,
+    PathBuf
 };
 use crate::Error;
 use serde_json;
 use std::cmp::Ordering;
-use std::path::PathBuf;
 
 
 #[derive(Debug, Serialize, Deserialize, Eq, PartialEq, Clone)]

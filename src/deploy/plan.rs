@@ -25,12 +25,12 @@ use super::{
     Read,
     Serialize,
     Deserialize,
+    PathBuf,
     task::DeployTask
 };
 use crate::Error;
 use crate::config::Config;
 use serde_json;
-use std::path::PathBuf;
 
 #[derive(Debug, Serialize, Deserialize, Eq, PartialEq)]
 pub struct DeployPlan {

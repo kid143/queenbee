@@ -20,9 +20,8 @@
 //! OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //! SOFTWARE.
 //! 
-use std::path::PathBuf;
 use serde_json;
-use super::{Serialize, Deserialize, File, Read};
+use super::{Serialize, Deserialize, File, Read, PathBuf};
 use super::command::{ExecutableCommand, CommandSet};
 use crate::Error;
 use crate::config::Config;
